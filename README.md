@@ -15,7 +15,7 @@ git pull origin
 ![branches](./images/01_branches.png "Переходим на страницу со всеми ветками")
 
 Нажимаем кнопку 'Create new branch':
-![new_branches](./images/02_new_branches.png "Нажимаем кнопку 'Create new branch'")
+![new_branches](./images/02_new_branches.png "Нажимаем кнопку 'New branch'")
 
 Вводим название ветки. Название ветки должно быть такое: feature/{внятное название на англ} или fix/{внятное название на англ}. “Внятное название” - название, которое отвечает на вопрос “Что это”. Например, feature/model_user, или fix/readme. 
 ![branch name](./images/03_branches_name.png "Вводим название ветки.")

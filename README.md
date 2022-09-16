@@ -31,8 +31,19 @@ git checkout feature/model_user
 ```
 
 6. Когда нужно отправить изменения на сайт:
+
+Смотрим какие файлы были изменены:
 ```
-git add .
+git status
+```
+
+Добавляем измененные файлы в коммит:
+```
+git add model.py service.py
+```
+
+Создаём новый коммит и отправляем на сервер:
+```
 git commit -m 'Commit description'
 git push
 ```

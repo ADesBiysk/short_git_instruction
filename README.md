@@ -11,8 +11,10 @@ git pull origin
 ```
 
 2. После получения задания создаём свою ветку на сайте.
+Переходим на страницу со всеми ветками:
 ![branches](./images/01_branches.png "Переходим на страницу со всеми ветками")
 
+Нажимаем кнопку 'Create new branch':
 ![new_branches](./images/02_new_branches.png "Нажимаем кнопку 'Create new branch'")
 
 Вводим название ветки. Название ветки должно быть такое: feature/{внятное название на англ} или fix/{внятное название на англ}. “Внятное название” - название, которое отвечает на вопрос “Что это”. Например, feature/model_user, или fix/readme. 
@@ -36,6 +38,11 @@ git push
 ```
 
 7. Создаём pull request:
+Переходим на страницу с pull requests:
 ![pull_request](./images/04_pull_request.png "Переходим на страницу с pull requests.")
+
+Создаём новый pull request:
 ![create_pull_request](./images/05_new_pull_request.png "Создаём новый pull request.")
+
+Заполняем информацию:
 ![create_pull_request](./images/06_pull_request_info.png "Заполняем информацию.")
